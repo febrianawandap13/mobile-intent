@@ -1,11 +1,14 @@
 package id.ac.polinema.intent;
 
 import android.os.Bundle;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ExplicitIntentActivity extends AppCompatActivity {
-
+    private EditText nameInput;
+    private TextView outputText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
