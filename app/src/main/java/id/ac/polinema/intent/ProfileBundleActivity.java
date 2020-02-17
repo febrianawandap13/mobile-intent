@@ -24,10 +24,10 @@ public class ProfileBundleActivity extends AppCompatActivity {
             // TODO: display value here
             String username=extras.getString(BundleActivity.USERNAME_KEY);
             String name=extras.getString(BundleActivity.NAME_KEY);
-            String age=extras.getString(BundleActivity.AGE_KEY);
+            int age=extras.getInt(BundleActivity.AGE_KEY);
             usernameText.setText(username);
             nameText.setText(name);
-            ageText.setText(age);
+            ageText.setText(String.valueOf(age));
         }
     }
 }
