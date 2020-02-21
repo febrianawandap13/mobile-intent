@@ -27,7 +27,7 @@ public class ProfileBundleActivity extends AppCompatActivity {
             int age=extras.getInt(BundleActivity.AGE_KEY);
             usernameText.setText(username);
             nameText.setText(name);
-            ageText.setText(String.valueOf(age));
+            ageText.setText(String.valueOf(age ));
         }
     }
 }
